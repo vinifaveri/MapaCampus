@@ -13,7 +13,7 @@ body {
 /* header da pagina */
 
 header {
-    background-color: #176b4d;
+    background-color: #0cf0a0;
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -62,7 +62,7 @@ section {
 }
 
 h2 {
-    color: #176b4d;
+    color: #0bff85;
     margin-bottom: 20px;
 }
 
