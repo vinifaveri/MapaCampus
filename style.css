@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* header da pagina */
+
+header {
+    background-color: #176b4d;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* menu principal */
+
+nav {
+    background-color: #124d39;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* conteudos da pagina */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #176b4d;
+    margin-bottom: 20px;
+}
+
+/* imagens do campus */
+
+img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* lista de pontos */
+
+ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+/* detalhes dos pontos */
+
+.card {
+    background-color: #e9f5ef;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-left: 5px solid #176b4d;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #176b4d;
+    margin-bottom: 8px;
+}
+
+/* rodapé da pagina */
+
+footer {
+    background-color: #124d39;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
