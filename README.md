@@ -73,3 +73,11 @@ Este projeto é versionado utilizando Git e hospedado publicamente no GitHub.
 
 - Objetivo
 O objetivo do projeto é desenvolver uma interface simples para facilitar a localização de pontos úteis dentro do campus.
+
+Como revisar mudanças
+
+Antes de integrar uma branch à `main`, o time deve revisar as alterações realizadas.
+
+Para comparar uma branch com a branch principal pode ser utilizado:
+```bash
+git diff main...nome-da-branch

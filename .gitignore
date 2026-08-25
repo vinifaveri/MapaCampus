@@ -1,0 +1,9 @@
+arquivos temporários
+.tmp
+
+arquivos baixados
+downloads/
+
+arquivos do sistema
+.DS_Store
+Thumbs.db
